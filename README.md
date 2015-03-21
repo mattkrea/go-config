@@ -5,6 +5,12 @@ Docs:
 
 [![GoDoc](https://godoc.org/github.com/mattkrea/go-config?status.svg)](https://godoc.org/github.com/mattkrea/go-config)
 
+### Usage
+
+The idea is to set the GO_ENV environment variable before launching your app allowing you to dynamically switch between configurations. For example, if you want to use a providers local database during a build you and use `GO_ENV=development` and add a file to your project root inside of a config folder named `development.json`.
+
+When you are ready to move into production you can then run your app with `GO_ENV=production` which will load `production.json`.
+
 ### Example config/default.json
 ```json
 {
