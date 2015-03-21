@@ -31,4 +31,5 @@ err := config.Open(&c)
 
 // Read your values
 log.Printf("%s", c.Database["dialect"])
+// Prints 'mysql'
 ```
