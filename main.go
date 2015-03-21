@@ -17,7 +17,7 @@ const (
 // Open accepts an interface though this interface
 // must accept or map to a JSON object. It is recommended
 // that you provide JSON attributes for each property
-func Open(c *interface{}) error {
+func Open(c interface{}) error {
 
 	var (
 		env      string
