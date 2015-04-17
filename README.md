@@ -1,7 +1,5 @@
 # Go Config
-Rough Golang port of https://github.com/lorenwest/node-config
-
-Docs:
+Rough Golang port of https://github.com/lorenwest/node-config that is still pretty much a work in progress.
 
 [![GoDoc](https://godoc.org/github.com/mattkrea/go-config?status.svg)](https://godoc.org/github.com/mattkrea/go-config) [![Build Status](https://travis-ci.org/mattkrea/go-config.svg)](https://travis-ci.org/mattkrea/go-config)
 
