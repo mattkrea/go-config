@@ -3,7 +3,7 @@ Rough Golang port of https://github.com/lorenwest/node-config
 
 Docs:
 
-[![GoDoc](https://godoc.org/github.com/mattkrea/go-config?status.svg)](https://godoc.org/github.com/mattkrea/go-config)
+[![GoDoc](https://godoc.org/github.com/mattkrea/go-config?status.svg)](https://godoc.org/github.com/mattkrea/go-config) [![Build Status](https://travis-ci.org/mattkrea/go-config.svg)](https://travis-ci.org/mattkrea/go-config)
 
 ### Usage
 
